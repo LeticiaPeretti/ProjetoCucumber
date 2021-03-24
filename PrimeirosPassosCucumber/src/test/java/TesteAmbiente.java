@@ -27,7 +27,7 @@ public class TesteAmbiente {
 	    @After
 	    public void teardown() {
 	        if (driver != null) {
-	            driver.quit();
+	          //  driver.quit();
 	        }
 	    }
 

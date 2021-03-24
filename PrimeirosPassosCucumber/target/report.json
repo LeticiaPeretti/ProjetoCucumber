@@ -1,0 +1,269 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-24T23:10:55.923Z",
+        "line": 7,
+        "name": "Deve executar especificacao",
+        "description": "",
+        "id": "aprender-cucumber;deve-executar-especificacao",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2992000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que criei o arquivo corretamente",
+            "match": {
+              "location": "steps.AprenderCucumberSteps.que_criei_o_arquivo_corretamente()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1012100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "executa - lo",
+            "match": {
+              "location": "steps.AprenderCucumberSteps.executa_lo()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "a especificacao deve finalizar com sucesso",
+            "match": {
+              "location": "steps.AprenderCucumberSteps.a_especificacao_deve_finalizar_com_sucesso()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-24T23:10:56.009Z",
+        "line": 12,
+        "name": "Deve incrementar contador",
+        "description": "",
+        "id": "aprender-cucumber;deve-incrementar-contador",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "que o valor do contador e 15",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.AprenderCucumberSteps.que_o_valor_do_contador_e(int)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 998100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "eu incrementar em 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.AprenderCucumberSteps.eu_incrementar_em(int)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1995100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o valor do contador sera 18",
+            "match": {
+              "arguments": [
+                {
+                  "val": "18",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.AprenderCucumberSteps.o_valor_do_contador_será(int)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-24T23:10:56.021Z",
+        "line": 17,
+        "name": "Deve incrementar contador",
+        "description": "",
+        "id": "aprender-cucumber;deve-incrementar-contador",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "que o valor do contador e 123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.AprenderCucumberSteps.que_o_valor_do_contador_e(int)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "eu incrementar em 35",
+            "match": {
+              "arguments": [
+                {
+                  "val": "35",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.AprenderCucumberSteps.eu_incrementar_em(int)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 998000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "o valor do contador sera 158",
+            "match": {
+              "arguments": [
+                {
+                  "val": "158",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.AprenderCucumberSteps.o_valor_do_contador_será(int)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-24T23:10:56.039Z",
+        "line": 22,
+        "name": "Deve calcular atraso na entrega",
+        "description": "",
+        "id": "aprender-cucumber;deve-calcular-atraso-na-entrega",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22937200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "que a entrega e dia 05/04/2021",
+            "match": {
+              "arguments": [
+                {
+                  "val": "05",
+                  "offset": 20
+                },
+                {
+                  "val": "04",
+                  "offset": 23
+                },
+                {
+                  "val": "2021",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.AprenderCucumberSteps.que_a_entrega_e_dia(int,int,int)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 999300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "a entrega atrasar em 2 dias",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.AprenderCucumberSteps.a_entrega_atrasar_em_dias(int)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 997500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "a entrega sera efetuada em 07/04/2021",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07",
+                  "offset": 27
+                },
+                {
+                  "val": "04",
+                  "offset": 30
+                },
+                {
+                  "val": "2021",
+                  "offset": 33
+                }
+              ],
+              "location": "steps.AprenderCucumberSteps.a_entrega_sera_efetuada_em(int,int,int)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Aprender Cucumber",
+    "description": "  Como um aluno\n  Eu quero aprender a utilizar Cucumber\n  Para que eu possa automatizar criterios de acietacao",
+    "id": "aprender-cucumber",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/Feature/aprender_cucumber.feature",
+    "tags": []
+  }
+]
