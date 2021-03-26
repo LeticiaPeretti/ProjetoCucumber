@@ -7,39 +7,28 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class GerenciadorDriver {
   private static WebDriver driver;
-
-	private static  WebDriver pegarGerenciadorDriver (TipoDriver navegador) {
-		
+	private static  WebDriver pegarGerenciadorDriver (TipoDriver navegador) {		
 		switch (navegador) {
 		
-		case CHROME:
-			
+		case CHROME:			
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions opcoesChrome = new ChromeOptions();
 			opcoesChrome.addArguments("--start-maximized");
 			driver = new ChromeDriver(opcoesChrome);
-             
+			break;             
 		 default:
-             break;
-				
-		}
-		
+             break;				
+		}		
 		return driver;
-	}
-	
+	}	
 	public static WebDriver pegarDriver(TipoDriver navegador) {
         if(driver == null){
-
             driver = pegarGerenciadorDriver(navegador);
         }
-
         return driver;
-	}
-	
+	}	
     public static void encerrarDriver(){
-
         if (driver != null) {
-
             driver.quit();
             driver = null;
         }
