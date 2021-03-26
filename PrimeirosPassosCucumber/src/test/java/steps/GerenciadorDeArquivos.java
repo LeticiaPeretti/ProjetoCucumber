@@ -5,7 +5,7 @@ import java.util.Properties;
 public class GerenciadorDeArquivos {
   private static final String DIR_PATH_PROPERTIES =
             System.getProperty("user.dir") + File.separator + "src" + File.separator
-                    + "main" + File.separator + "resources" + File.separator;
+                    + "test" + File.separator + "resources" + File.separator;
     
     public static Properties getProperties(String fileName) throws IOException {
         InputStream inputStream = null;

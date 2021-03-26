@@ -11,11 +11,11 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/Feature/inserir_conta.feature",
-        glue = "steps",
+        glue = "",
         plugin = {"pretty", "html:target/report-html", "json:target/report.json"},
         monochrome = false,
         snippets = SnippetType.CAMELCASE,
-        dryRun = true,
+        dryRun = false,
         strict = true 
         )
 
